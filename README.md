@@ -18,7 +18,7 @@ Learn modern HTML5, CSS3 and web design by building a stunning website for your 
 
 | sections                                                 | Challenges Link                                              |
 | :------------------------------------------------------- | :----------------------------------------------------------- |
-| HTML Foundation                                          | :happy: [Challenge One](https://shalabyelectronics.github.io/Build-Responsive-websites/HTML-Fundamentals/01-HTML-Fundamentals-Challeges/challenges/ch1/index.html)<br />:happy: [Challenge Two](https://shalabyelectronics.github.io/Build-Responsive-websites/HTML-Fundamentals/01-HTML-Fundamentals-Challeges/challenges/ch2/index.html) |
+| HTML Foundation                                          | [Challenge One](https://shalabyelectronics.github.io/Build-Responsive-websites/HTML-Fundamentals/01-HTML-Fundamentals-Challeges/challenges/ch1/index.html)<br />[Challenge Two](https://shalabyelectronics.github.io/Build-Responsive-websites/HTML-Fundamentals/01-HTML-Fundamentals-Challeges/challenges/ch2/index.html) |
 | CSS Fundamentals                                         |                                                              |
 | Layouts: Floats, Flexbox, and CSS Grid Fundamentals      |                                                              |
 | Web Design Rules and Framework                           |                                                              |
