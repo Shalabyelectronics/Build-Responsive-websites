@@ -16,16 +16,16 @@ Learn modern HTML5, CSS3 and web design by building a stunning website for your 
 
 ### - My learning sections and Challenges Related :hammer_and_wrench:
 
-| sections                                                 | Challenges Repos |
-| :------------------------------------------------------- | :--------------- |
-| HTML Foundation                                          |                  |
-| CSS Fundamentals                                         |                  |
-| Layouts: Floats, Flexbox, and CSS Grid Fundamentals      |                  |
-| Web Design Rules and Framework                           |                  |
-| Components and Layout Patterns                           |                  |
-| Omnifood Project – Setup and Desktop Version             |                  |
-| Omnifood Project – Responsive Web Design                 |                  |
-| Omnifood Project – Effects, Optimizations and Deployment |                  |
+| sections                                                 | Challenges Link                                              |
+| :------------------------------------------------------- | :----------------------------------------------------------- |
+| HTML Foundation                                          | [Challenge One](https://shalabyelectronics.github.io/Build-Responsive-websites/HTML-Fundamentals/01-HTML-Fundamentals-Challeges/challenges/ch1/index.html)<br />[Challenge Two](https://shalabyelectronics.github.io/Build-Responsive-websites/HTML-Fundamentals/01-HTML-Fundamentals-Challeges/challenges/ch2/index.html) |
+| CSS Fundamentals                                         |                                                              |
+| Layouts: Floats, Flexbox, and CSS Grid Fundamentals      |                                                              |
+| Web Design Rules and Framework                           |                                                              |
+| Components and Layout Patterns                           |                                                              |
+| Omnifood Project – Setup and Desktop Version             |                                                              |
+| Omnifood Project – Responsive Web Design                 |                                                              |
+| Omnifood Project – Effects, Optimizations and Deployment |                                                              |
 
 
 
