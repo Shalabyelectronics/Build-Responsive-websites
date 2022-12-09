@@ -8,22 +8,16 @@ header {
   background-color: rgb(246, 244, 244);
 }
 
-a:link {
+a:link, a:visited {
   color:#6369c2;
   font-weight: bold;
   text-decoration: none;
 }
 
-a:hover{
+a:hover, a:active{
   color: #92929b;
 }
 
-a:active {
-  color: #4f4f50;
-}
-a:visited {
-  color:#6369c2;
-}
 
 h3, h4 {
   color: #1098ad;

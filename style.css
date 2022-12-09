@@ -1,0 +1,25 @@
+body{
+  background-color: azure;
+  font-family: sans-serif;
+  line-height: 1.4;
+  border: 4px solid rgb(60, 161, 161);
+  color: #444;
+}
+.header-section{
+  background-color: rgb(179, 239, 239);
+}
+.header-title, .copyright{
+  text-align: center;
+  text-transform: uppercase;
+}
+.description {
+  font-size: 20px;
+  font-weight: bold;
+}
+.chapters-list {
+  list-style:square;
+}
+.copyright {
+  font-size: 15px;
+  border-top: 1px solid rgb(60, 161, 161);
+}
