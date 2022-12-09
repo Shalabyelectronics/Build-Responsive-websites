@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  color: #444;
+  line-height: 1.5;
+  background-color: aliceblue;
+}
+header {
+  background-color: rgb(246, 244, 244);
+}
+
+a:link {
+  color:#6369c2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #92929b;
+}
+
+a:active {
+  color: #4f4f50;
+}
+a:visited {
+  color:#6369c2;
+}
+
+h3, h4 {
+  color: #1098ad;
+}
+.realated {
+  border-top: 15px solid #1098ad;
+  border-bottom: 15px solid #1098ad;
+}
+aside li {
+  list-style: none;
+}
+
