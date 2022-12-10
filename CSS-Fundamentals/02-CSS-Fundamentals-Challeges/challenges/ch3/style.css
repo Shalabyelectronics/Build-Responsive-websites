@@ -10,6 +10,11 @@ body {
   line-height: 1.5;
   background-color: aliceblue;
   border-top: 10px solid #1098ad;
+  border-bottom: 10px solid #1098ad;
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
 }
 span {
   color: #1098ad;
@@ -64,7 +69,6 @@ p {
 }
 .realated {
   border-top: 10px solid #1098ad;
-  border-bottom: 10px solid #1098ad;
   padding: 50px 0;
   width: 500px;
 }
