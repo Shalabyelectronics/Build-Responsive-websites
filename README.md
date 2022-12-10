@@ -2,7 +2,7 @@
 
 This is the There'd course under [albonyanalmarsos](https://albonyanalmarsos.vercel.app/#subject) Full Stack Web Development Roadmap.
 
-![](https://progress-bar.dev/10/?title=progress)
+![](https://progress-bar.dev/15/?title=progress)
 
 ## - Learning objectives
 Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid.
