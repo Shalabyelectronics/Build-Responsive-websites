@@ -13,10 +13,10 @@ span {
 header {
   background-color: rgb(246, 244, 244);
 }
-.megazine-name{
+.megazine-name {
   font-style: italic;
 }
-.main-topic{
+.main-topic {
   font-size: 27px;
   font-weight: bold;
 }
@@ -24,9 +24,12 @@ header {
   font-style: italic;
   font-size: 18px;
 }
-p, li {
-  font-size: 20px;
+
+li:nth-child(odd) {
+  font-weight: bold;
+  
 }
+
 a:link,
 a:visited {
   color: #1098ad;
