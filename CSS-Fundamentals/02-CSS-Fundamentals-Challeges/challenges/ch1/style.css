@@ -3,23 +3,40 @@ body {
   color: #444;
   line-height: 1.5;
   background-color: aliceblue;
+  border-top: 10px solid #1098ad;
 }
 header {
   background-color: rgb(246, 244, 244);
 }
-
-a:link, a:visited {
-  color:#6369c2;
+.megazine-name{
+  font-style: italic;
+}
+.main-topic{
+  font-size: 27px;
+  font-weight: bold;
+}
+.posted-by {
+  font-style: italic;
+  font-size: 18px;
+}
+p, li {
+  font-size: 20px;
+}
+a:link,
+a:visited {
+  color: #1098ad;
   font-weight: bold;
   text-decoration: none;
 }
 
-a:hover, a:active{
+a:hover,
+a:active {
   color: #92929b;
 }
 
-
-h3, h4 {
+h1,
+h3,
+h4 {
   color: #1098ad;
 }
 .realated {
@@ -29,4 +46,3 @@ h3, h4 {
 aside li {
   list-style: none;
 }
-
