@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+  color: #444;
+  line-height: 1.5;
+  background-color: aliceblue;
+  border-top: 10px solid #1098ad;
+  margin: 0;
+}
+span {
+  color: #1098ad;
+  font-weight: bold;
+}
+header {
+  background-color: rgb(246, 244, 244);
+}
+.megazine-name {
+  font-style: italic;
+}
+.main-topic {
+  font-size: 27px;
+  font-weight: bold;
+}
+.posted-by {
+  font-style: italic;
+  font-size: 18px;
+}
+
+
+a:link,
+a:visited {
+  color: #1098ad;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #92929b;
+}
+
+h1,
+h3,
+h4 {
+  color: #1098ad;
+}
+.realated {
+  border-top: 15px solid #1098ad;
+  border-bottom: 15px solid #1098ad;
+}
+.realated-post{
+  list-style: none;
+}
+.copyright{
+  text-align: center;
+  font-size: 12px;
+}
+.focue-li-one li:nth-child(odd){
+  font-weight: bold;
+}
+
+.focue-li-two li:nth-child(even){
+  font-weight: bold;
+}
+.author{
+  font-weight: bold;
+  color: #444;
+  font-style: italic;
+}
