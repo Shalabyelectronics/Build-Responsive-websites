@@ -11,6 +11,7 @@ body {
   background-color: aliceblue;
   border-top: 10px solid #1098ad;
   border-bottom: 10px solid #1098ad;
+  position: relative;
 }
 .container {
   width: 700px;
@@ -45,6 +46,7 @@ span {
 
 .topic-header {
   margin-bottom: 40px;
+  position: relative;
 }
 
 .post-header{
@@ -89,7 +91,10 @@ a:hover,
 a:active {
   color: #dbb88f;
 }
-
+nav a {
+  margin-right: 20px;
+  font-size: 20px;
+}
 nav a:link:last-child,
 nav a:visited:last-child {
   margin-right: 0;
@@ -114,6 +119,7 @@ h4 {
 .post-image {
   width: 100%;
   height: auto;
+  margin-bottom: 10px;
 }
 .copyright{
   text-align: center;
@@ -128,4 +134,11 @@ li {
 }
 li:last-child{
   margin: 0;
+}
+
+.like-btn {
+  padding: 10px;
+  color: #444;
+  font-size: 20px;
+ 
 }
