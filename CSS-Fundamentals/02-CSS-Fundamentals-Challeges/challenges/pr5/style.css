@@ -75,13 +75,13 @@ span {
 p {
   margin-bottom: 15px;
 }
-.focue-li-one li:nth-child(odd){
+/* .focue-li-one li:nth-child(odd){
   font-weight: bold;
 }
 
 .focue-li-two li:nth-child(even){
   font-weight: bold;
-}
+} */
 .author{
   font-weight: bold;
   color: #444;
