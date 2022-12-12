@@ -6,10 +6,14 @@ body {
   background-color: azure;
   font-family: sans-serif;
   line-height: 1.4;
-  border: 4px solid rgb(60, 161, 161);
+
   color: #444;
 }
-
+.container {
+  width: 800px;
+  margin: 60px auto;
+  border: 4px solid rgb(60, 161, 161);
+}
 .header-section {
   background-color: rgb(179, 239, 239);
   margin-bottom: 30px;
