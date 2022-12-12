@@ -160,4 +160,10 @@ li:last-child{
   color: #444;
   font-size: 20px;
   margin-bottom: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 530px;
+}
+.like-btn::first-letter{
+  color: red;
 }
