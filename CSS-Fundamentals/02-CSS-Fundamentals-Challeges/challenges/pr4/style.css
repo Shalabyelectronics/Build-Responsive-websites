@@ -46,7 +46,6 @@ span {
 
 .topic-header {
   margin-bottom: 40px;
-  position: relative;
 }
 
 .post-header{
@@ -140,5 +139,5 @@ li:last-child{
   padding: 10px;
   color: #444;
   font-size: 20px;
- 
+  margin-bottom: 20px;
 }
