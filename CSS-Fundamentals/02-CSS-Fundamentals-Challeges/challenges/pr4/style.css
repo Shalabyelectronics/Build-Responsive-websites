@@ -29,6 +29,10 @@ span {
 .megazine-name {
   font-style: italic;
 }
+.megazine-name::first-letter{
+  font-style: normal;
+  margin-right: 5px;
+}
 .main-topic {
   font-size: 27px;
   font-weight: bold;
