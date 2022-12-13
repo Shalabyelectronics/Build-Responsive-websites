@@ -25,13 +25,20 @@ span {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  background-color: yellow;
 }
 .megazine-name {
   font-style: italic;
+  background-color: red;
   float: left;
 }
 nav {
   float: right;
+  background-color: #faaf59;
+  margin-top: 15px;
+}
+.clear::after {
+  clear: both;
 }
 .megazine-name::first-letter {
   font-style: normal;
