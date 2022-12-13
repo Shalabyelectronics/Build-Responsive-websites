@@ -10,11 +10,11 @@ body {
   line-height: 1.5;
   background-color: aliceblue;
   border-top: 10px solid #1098ad;
-  border-bottom: 10px solid #1098ad;
   position: relative;
 }
 .container {
-  width: 1000px;
+  position: relative;
+  width: 1200px;
   margin: 0 auto;
 }
 span {
@@ -73,7 +73,8 @@ nav {
 }
 
 .post {
-  margin-bottom: 60px;
+  width: 800px;
+  float: left;
 }
 
 .posted-info {
@@ -95,7 +96,9 @@ nav {
   margin-bottom: 20px;
   font-size: 30px;
 }
-
+.post-cotainer {
+  width: 800px;
+}
 p {
   margin-bottom: 15px;
 }
@@ -112,15 +115,23 @@ p {
   font-style: italic;
 }
 .realated {
-  border-top: 10px solid #1098ad;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
   padding: 50px 0;
-  width: 500px;
+  width: 350px;
+  float: right;
+  right: 0;
+  background-color: rgb(229, 236, 236);
 }
 
 .related-title {
   text-align: center;
   font-size: 27px;
   color: #444;
+}
+
+.related-post {
+  list-style: none;
 }
 
 a:link,
@@ -164,8 +175,9 @@ h4 {
   margin-bottom: 10px;
 }
 .copyright {
-  text-align: center;
   font-size: 12px;
+  border-top: 2px solid #1098ad;
+  clear: both;
 }
 ul,
 ol {
@@ -186,8 +198,13 @@ li:last-child {
   margin-bottom: 20px;
   position: absolute;
   right: 0;
-  bottom: 530px;
+  bottom: 100px;
 }
 .like-btn::first-letter {
   color: red;
+}
+.img-related-post {
+  display: block;
+  width: 75px;
+  margin-bottom: 10px;
 }
