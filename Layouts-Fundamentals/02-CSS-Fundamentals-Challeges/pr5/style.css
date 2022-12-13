@@ -37,7 +37,7 @@ nav {
   background-color: #faaf59;
   margin-top: 15px;
 }
-.clear::after {
+.clear {
   clear: both;
 }
 .megazine-name::first-letter {
