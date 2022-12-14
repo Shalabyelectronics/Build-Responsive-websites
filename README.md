@@ -2,7 +2,7 @@
 
 This is the There'd course under [albonyanalmarsos](https://albonyanalmarsos.vercel.app/#subject) Full Stack Web Development Roadmap.
 
-![](https://progress-bar.dev/25/?title=progress)
+![](https://progress-bar.dev/15/?title=progress)
 
 ## - Learning objectives
 Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid.
@@ -20,7 +20,7 @@ Learn modern HTML5, CSS3 and web design by building a stunning website for your 
 | :------------------------------------------------------- | :----------------------------------------------------------- |
 | HTML Foundation                                          | [Practical 1](https://shalabyelectronics.github.io/Build-Responsive-websites/HTML-Fundamentals/01-HTML-Fundamentals-Challeges/challenges/pr1/index.html)<br />[Challenge 1](https://shalabyelectronics.github.io/Build-Responsive-websites/HTML-Fundamentals/01-HTML-Fundamentals-Challeges/challenges/ch1/index.html) |
 | CSS Fundamentals                                         | [Practical 2](https://shalabyelectronics.github.io/Build-Responsive-websites/CSS-Fundamentals/02-CSS-Fundamentals-Challeges/challenges/pr2/index.html)<br >[Challenge 2](https://shalabyelectronics.github.io/Build-Responsive-websites/CSS-Fundamentals/02-CSS-Fundamentals-Challeges/challenges/ch2/index.html)<br >[Practical 3](https://shalabyelectronics.github.io/Build-Responsive-websites/CSS-Fundamentals/02-CSS-Fundamentals-Challeges/challenges/pr3/index.html)<br >[Challenge 3](https://shalabyelectronics.github.io/Build-Responsive-websites/CSS-Fundamentals/02-CSS-Fundamentals-Challeges/challenges/ch3/index.html)<br >[Practice 4](https://shalabyelectronics.github.io/Build-Responsive-websites/CSS-Fundamentals/02-CSS-Fundamentals-Challeges/challenges/pr4/index.html)<br >[Practice 5](https://shalabyelectronics.github.io/Build-Responsive-websites/CSS-Fundamentals/02-CSS-Fundamentals-Challeges/challenges/pr5/index.html)<br >[Challenge 4](https://shalabyelectronics.github.io/Build-Responsive-websites/CSS-Fundamentals/02-CSS-Fundamentals-Challeges/challenges/ch4/index.html) |
-| Layouts: Floats, Flexbox, and CSS Grid Fundamentals      |                                                              |
+| Layouts: Floats, Flexbox, and CSS Grid Fundamentals      | [Practice 6](https://shalabyelectronics.github.io/Build-Responsive-websites/Layouts-Fundamentals/02-CSS-Fundamentals-Challeges/pr5/index.html)<br >[Challenge 5](https://shalabyelectronics.github.io/Build-Responsive-websites/Layouts-Fundamentals/02-CSS-Fundamentals-Challeges/ch5/index.html) |
 | Web Design Rules and Framework                           |                                                              |
 | Components and Layout Patterns                           |                                                              |
 | Omnifood Project – Setup and Desktop Version             |                                                              |
