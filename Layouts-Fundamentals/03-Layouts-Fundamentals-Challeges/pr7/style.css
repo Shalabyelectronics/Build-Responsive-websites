@@ -20,9 +20,9 @@ body {
 }
 .post-container {
   display: flex;
-  flex: 0 1 1200px;
+  flex: 0 0 1200px;
   justify-content: space-between;
-  gap: 20px;
+  gap: 90px;
   margin-bottom: 50px;
 }
 
@@ -79,7 +79,7 @@ span {
 }
 
 .post {
-  width: 800px;
+  flex: 0 0 800px;
 }
 .post-author-section {
   display: flex;
@@ -89,6 +89,7 @@ span {
 }
 .posted-info {
   font-style: italic;
+  margin-bottom: 0;
   font-size: 18px;
 }
 
@@ -121,7 +122,8 @@ p {
 .realated {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 50px;
+  padding: 25px 25px;
+  flex: 0 0 300px;
   background-color: rgb(229, 236, 236);
   align-self: flex-start;
 }
@@ -129,16 +131,29 @@ p {
 .related-title {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 27px;
-  color: #444;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
 }
 
-.related-post {
+.related-post-ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+.related-post-li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
 
+.related-post-author {
+  line-height: 1.4;
+}
+
+.related-post-author p {
+  margin: 0;
+}
 a:link,
 a:visited {
   color: #1098ad;
@@ -204,7 +219,8 @@ li:last-child {
   margin-bottom: 20px;
   position: absolute;
   right: 0;
-  bottom: 100px;
+  bottom: 20px;
+  cursor: pointer;
 }
 .like-btn::first-letter {
   color: red;
@@ -212,5 +228,4 @@ li:last-child {
 .img-related-post {
   display: block;
   width: 75px;
-  margin-bottom: 10px;
 }
