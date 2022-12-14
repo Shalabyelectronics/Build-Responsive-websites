@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>The Basic Language of the Web: HTML</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Changing header layouts from floats to flexbox -->
+      <header class="main-header">
+        <h1 class="megazine-name">📘 The Code Magazine</h1>
+        <nav>
+          <a href="#" target="_blank">Blog </a><span> | </span>
+          <a href="#" target="_blank">Challenges </a><span> | </span>
+          <a href="../flexbox/flexbox.html" target="_blank">Flexbox</a>
+          <span> | </span>
+          <a href="../css-grid/css-grid.html" target="_blank">CSS Grid</a>
+        </nav>
+        <!-- Adding a clear class to an empty div to clear the float is not useful but its a good bractice to know about it -->
+        <!-- <div class="clear"></div> -->
+      </header>
+      <!-- Changing post section and relatde to be inside a flexbox container -->
+      <div class="post-container">
+        <article class="post">
+          <header class="topic-header">
+            <h2 class="main-topic-title">
+              The Basic Language of the Web: HTML
+            </h2>
+            <div class="post-author-section">
+              <img
+                class="author-img"
+                src="./images/mhd-shalaby.png"
+                width="75"
+                alt="Mohamed shalaby photo"
+              />
+              <p class="posted-info">
+                Posted by <strong>Shalaby</strong> on Thirsday, Dec 8th 2022
+              </p>
+            </div>
+
+            <img
+              src="./images/post-img.jpg"
+              alt="Post image"
+              class="post-image"
+            />
+          </header>
+
+          <p>
+            All modern websites and web applications are built using three
+            <em>fundamental</em> technologies: HTML, CSS and JavaScript. These
+            are the languages of the web. In this post, let's focus on HTML. We
+            will learn what HTML is all about, and why you too should learn it.
+          </p>
+          <h3 class="post-header">What is HTML?</h3>
+          <p>
+            HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+            <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+            language that web developers use to structure and describe the
+            content of a webpage (not a programming language). HTML consists of
+            elements that describe different types of content: paragraphs,
+            links, headings, images, video, etc. Web browsers understand HTML
+            and render HTML code as websites. In HTML, each element is made up
+            of 3 parts:
+          </p>
+          <ol class="focue-li-one">
+            <li>The opening tag</li>
+            <li>The closing tag</li>
+            <li>The actual element</li>
+          </ol>
+          <p>
+            You can learn more at
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              >MDN Web Docs</a
+            >.
+          </p>
+          <h3 class="post-header">Why Should you learn HTML?</h3>
+          <p>
+            There are countless reasons for learning the fundamental language of
+            the web. Here are 5 of them:
+          </p>
+          <ul class="focue-li-two">
+            <li>To be able to use the fundamental web dev language</li>
+            <li>
+              To hand-craft beautiful websites instead of relying on tools like
+              Worpress or Wix
+            </li>
+            <li>To build web applications</li>
+            <li>To impress friends</li>
+            <li>To have fun 😃</li>
+          </ul>
+          <p>Hopefully you learned something new here. See you next time!</p>
+        </article>
+        <aside class="realated">
+          <h4 class="related-title">Related posts</h4>
+          <ul class="related-post">
+            <li>
+              <img
+                src="./images/related-1.jpg"
+                alt="working on computer"
+                class="img-related-post"
+              />
+              <a href="#" target="_blank">How to Learn Web Development</a>
+              <p>By <span class="author">Jonas Schmedtmann</span></p>
+            </li>
+            <li>
+              <img
+                src="./images/related-2.jpg"
+                alt="Storm"
+                class="img-related-post"
+              />
+              <a href="#" target="_blank">The Unknown Powers of CSS</a>
+              <p>By <span class="author">Jim Dillon</span></p>
+            </li>
+            <li>
+              <img
+                src="./images/related-3.jpg"
+                alt="Code"
+                class="img-related-post"
+              />
+              <a href="#" target="_blank">Why JavaScript is Awesome?</a>
+              <p>By <span class="author">Mhd Shalaby</span></p>
+            </li>
+          </ul>
+        </aside>
+      </div>
+
+      <button class="like-btn">❤ Like</button>
+      <footer class="copyright">
+        <p>Copyright &copy; 2027 by The Code Magazine.</p>
+      </footer>
+    </div>
+  </body>
+</html>
