@@ -26,6 +26,7 @@
 
 .container--1 {
   /* STARTER */
+
   font-family: sans-serif;
   background-color: #ddd;
   font-size: 40px;
@@ -55,14 +56,24 @@ h1 {
 }
 .container--2 {
   /* STARTER */
-  display: none;
+  display: grid;
   font-family: sans-serif;
   background-color: black;
   font-size: 40px;
-  margin: 100px;
+  margin: 60px;
 
-  width: 1000px;
+  width: 700px;
   height: 600px;
-
+  grid-template-columns: 200px 125px 200px;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
   /* CSS GRID */
+}
+
+.el--3 {
+  justify-self: center;
+  align-self: center;
 }
