@@ -34,13 +34,22 @@
   /* CSS GRID */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   /* gap: 15px; */
   column-gap: 20px;
   /* justify-content: center; */
 
   row-gap: 35px;
 }
+
+.el--1 {
+  grid-column: 1;
+  grid-row: 1 / -1;
+}
+.el--2 {
+  grid-column: 2/-1;
+}
+
 h1 {
   text-align: center;
 }
