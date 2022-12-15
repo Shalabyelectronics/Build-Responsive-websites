@@ -1,0 +1,246 @@
+/* Reset All spaces to be Zero */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #444;
+  line-height: 1.5;
+  background-color: aliceblue;
+  border-top: 10px solid #1098ad;
+  position: relative;
+}
+.main-container {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+/* Header Section start */
+.header-container {
+  display: flex;
+  background-color: #f7f7f7;
+  height: 100px;
+  margin-bottom: 60px;
+  align-items: center;
+  justify-content: space-between;
+  /* For debbuging */
+  /* background-color: yellow; */
+}
+
+.title {
+  font-style: italic;
+  /* For debbuging */
+  /* background-color: red; */
+}
+
+.title::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+.navbar a {
+  font-size: 20px;
+}
+.navbar a:link:last-child,
+.navbar a:visited:last-child {
+  margin-right: 0;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  color: #faaf59;
+  font-weight: bold;
+}
+
+.nav-sep {
+  color: #1098ad;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+/* --------------------- Header Section end ------------------------- */
+
+/* Post Main Container start */
+
+/* Post Header Section */
+
+.main-post-container {
+  display: flex;
+  flex: 0 0 1200px;
+  justify-content: space-between;
+  gap: 90px;
+  margin-bottom: 50px;
+}
+
+.post-container {
+  flex: 0 0 800px;
+}
+
+.topic-header {
+  margin-bottom: 40px;
+}
+
+.topic-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.topic-title::after {
+  /* Add TOP word to the up right corner from the topic title */
+  content: "TOP";
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #dfeb3c;
+  color: #444;
+  padding: 5px 10px;
+  display: inline-block;
+  position: absolute;
+  top: -25px;
+  right: -20px;
+}
+
+.author-info {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.author-img {
+  max-width: 75px;
+}
+/* Try to fix the image with max width and max hieght */
+.post-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* ------------------- Post Header Section End here --------------- */
+/* Post content start here */
+
+.posted-info {
+  font-style: italic;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.post-header {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.post-cotainer {
+  width: 800px;
+}
+p {
+  margin-bottom: 15px;
+}
+/* .focue-li-one li:nth-child(odd){
+  font-weight: bold;
+}
+
+.focue-li-two li:nth-child(even){
+  font-weight: bold;
+} */
+.author {
+  font-weight: bold;
+  color: #444;
+  font-style: italic;
+}
+.realated {
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 25px 25px;
+  flex: 0 0 300px;
+  background-color: rgb(229, 236, 236);
+  align-self: flex-start;
+}
+
+.related-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.related-post-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.related-post-li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.related-post-author {
+  line-height: 1.4;
+}
+
+.related-post-author p {
+  margin: 0;
+}
+a:link,
+a:visited {
+  color: #1098ad;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover,
+a:active {
+  color: #dbb88f;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #1098ad;
+}
+
+.realated-post {
+  list-style: none;
+}
+
+.copyright {
+  font-size: 12px;
+  border-top: 2px solid #1098ad;
+  clear: both;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin: 0;
+}
+
+.like-btn {
+  padding: 10px;
+  color: #444;
+  font-size: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  cursor: pointer;
+}
+.like-btn::first-letter {
+  color: red;
+}
+.img-related-post {
+  display: block;
+  width: 75px;
+}
