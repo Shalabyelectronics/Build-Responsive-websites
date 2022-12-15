@@ -68,11 +68,16 @@ body {
 /* Post Header Section */
 
 .main-post-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 100px;
+  /* Flex container 
   display: flex;
   flex: 0 0 1200px;
   justify-content: space-between;
   gap: 90px;
   margin-bottom: 50px;
+  */
 }
 
 .post-container {
