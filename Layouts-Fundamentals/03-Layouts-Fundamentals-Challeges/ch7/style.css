@@ -1,0 +1,156 @@
+/* Rest all Spaces */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+/* Page content Container */
+.container {
+  margin: 50px auto;
+  width: 825px;
+  border: 4px solid black;
+  line-height: 1.5;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  align-items: center;
+}
+.container::before {
+  content: "Sale";
+  background-color: rgb(230, 83, 29);
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: -25px;
+  left: -35px;
+}
+/* pruduct title */
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: rgb(231, 231, 231);
+  padding: 20px 0;
+  grid-column: 1/-1;
+}
+
+.product-img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.product-details {
+  line-height: 1.4;
+  flex: 1;
+  /* flex: 0 0 300px; */
+  /* background-color: aqua; */
+}
+.price-shipment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+.shipment-status {
+  text-transform: uppercase;
+  color: rgb(150, 150, 150);
+  font-weight: bold;
+  font-size: 15px;
+}
+.discription {
+  margin-bottom: 20px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.more-info:hover,
+.more-info:active {
+  color: rgb(179, 179, 179);
+  text-decoration: none;
+}
+.discription {
+  font-size: 17px;
+}
+.more-title {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.details-list {
+  list-style: square;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+.cart-btn {
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border-top: 4px solid black;
+  cursor: pointer;
+  padding: 20px 0;
+  grid-column: 1/-1;
+}
+.cart-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.product-color {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.p-color-item {
+  width: 22px;
+  height: 22px;
+}
+
+.black-color {
+  background-color: #000;
+}
+
+.blue-color {
+  background-color: rgb(37, 87, 224);
+}
+
+.orange-color {
+  background-color: rgb(243, 132, 28);
+}
+
+.yellow-color {
+  background-color: rgb(220, 223, 42);
+}
+
+.green-color {
+  background-color: rgb(42, 151, 48);
+}
+
+.brown-color {
+  background-color: rgb(129, 65, 5);
+}
