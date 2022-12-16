@@ -11,23 +11,45 @@ body {
   line-height: 1.5;
   background-color: aliceblue;
   border-top: 10px solid #1098ad;
+  margin: 0 auto;
+  width: 1200px;
   position: relative;
 }
-.main-container {
+
+/* Convert to Grid Layout */
+
+.container {
   position: relative;
-  width: 1200px;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
 }
 /* Header Section start */
-.header-container {
+.main-header {
   display: flex;
   background-color: #f7f7f7;
   height: 100px;
-  margin-bottom: 60px;
   align-items: center;
   justify-content: space-between;
+  grid-column: 1 /-1;
   /* For debbuging */
   /* background-color: yellow; */
+}
+
+aside {
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 25px 25px;
+  background-color: rgb(229, 236, 236);
+}
+
+footer {
+  font-size: 12px;
+  border-top: 2px solid #1098ad;
+  grid-column: 1/-1;
+  align-self: center;
 }
 
 .title {
@@ -66,23 +88,6 @@ body {
 /* Post Main Container start */
 
 /* Post Header Section */
-
-.main-post-container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  column-gap: 100px;
-  /* Flex container 
-  display: flex;
-  flex: 0 0 1200px;
-  justify-content: space-between;
-  gap: 90px;
-  margin-bottom: 50px;
-  */
-}
-
-.post-container {
-  flex: 0 0 800px;
-}
 
 .topic-header {
   margin-bottom: 40px;
@@ -140,8 +145,9 @@ body {
   font-size: 30px;
 }
 .post-cotainer {
-  width: 800px;
+  justify-self: center;
 }
+
 p {
   margin-bottom: 15px;
 }
@@ -157,16 +163,9 @@ p {
   color: #444;
   font-style: italic;
 }
-.realated {
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-  padding: 25px 25px;
-  flex: 0 0 300px;
-  background-color: rgb(229, 236, 236);
-  align-self: flex-start;
-}
 
 .related-title {
+  /* justify-self: center; */
   text-align: center;
   margin-bottom: 20px;
   font-size: 30px;
@@ -215,11 +214,6 @@ h4 {
   list-style: none;
 }
 
-.copyright {
-  font-size: 12px;
-  border-top: 2px solid #1098ad;
-  clear: both;
-}
 ul,
 ol {
   margin-left: 50px;
@@ -236,10 +230,9 @@ li:last-child {
   padding: 10px;
   color: #444;
   font-size: 20px;
-  margin-bottom: 20px;
   position: absolute;
   right: 0;
-  bottom: 20px;
+  bottom: 70px;
   cursor: pointer;
 }
 .like-btn::first-letter {
