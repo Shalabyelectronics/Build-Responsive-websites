@@ -42,6 +42,10 @@ section {
   margin-bottom: 48px;
 }
 
+img {
+  border-radius: 12px;
+}
+
 h2 {
   margin-bottom: 48px;
   font-size: 36px;
@@ -62,6 +66,7 @@ h2 {
   font-weight: 500;
   background-color: #087f5b;
   text-transform: uppercase;
+  border-radius: 100px;
 }
 
 .btn:hover,
@@ -114,6 +119,9 @@ h1 {
 img {
   width: 100%;
 }
+.chair-img {
+  border-radius: 12px 12px 0 0;
+}
 
 /* FEATURES */
 .features-icon {
@@ -136,6 +144,7 @@ img {
 /* TESTIMONIAL */
 .testimonial-section {
   background-color: #087f5b;
+  border-radius: 12px;
   color: #fff;
   padding: 24px;
 }
@@ -160,6 +169,7 @@ img {
 /* CHAIRS */
 .chair {
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
 }
 
 .chair-box {
