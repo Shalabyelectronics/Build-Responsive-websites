@@ -1,0 +1,100 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+Main Color : #087f5b;
+Grey: ##343a40;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+
+/* 
+
+font-family: 'Inter', sans-serif;
+*/
+body {
+  /* Quotes around inter give it the first in=mportance to apply */
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+}
+
+.accordion {
+  width: 700px;
+  margin: 100px auto;
+  /* background-color: #343a40; */
+}
+.box {
+  font-weight: 500;
+  box-shadow: 0 0 10px #c2c8ce;
+  margin-bottom: 24px;
+}
+
+.box--1 {
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+.q--1 {
+  padding: 10px;
+}
+.expand-btn {
+  stroke: #087f5b;
+  margin-right: 48px;
+}
+/* .question {
+  padding: 12px;
+} */
+
+.number {
+  justify-self: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.box--2 {
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  grid-template-rows: 50px 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 20px;
+  align-items: center;
+  border-top: 5px solid #087f5b;
+}
+.n--1 {
+  color: #868e96;
+}
+.n--2 {
+  color: #087f5b;
+}
+.an--1 {
+  grid-column: 2/3;
+  margin: 10px 0 5px 0;
+}
+
+.q--2 {
+  color: #087f5b;
+}
+.list-container {
+  grid-column: 2/3;
+  margin-left: 20px;
+  color: #868e96;
+  margin-bottom: 20px;
+}
+.list-container li {
+  margin-bottom: 10px;
+}
