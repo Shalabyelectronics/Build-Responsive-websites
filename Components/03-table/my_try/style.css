@@ -1,0 +1,86 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+Main Color : #087f5b;
+Grey: ##343a40;
+light:#e6fcf5;
+#c3fae8;
+#c3fae8
+
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  /* Quotes around inter give it the first in=mportance to apply */
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+}
+
+.table {
+  width: 800px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(5, auto);
+}
+
+.title {
+  background-color: #087f5b;
+  padding: 16px;
+  font-size: 18px;
+  color: #e6fcf5;
+  font-weight: 700;
+}
+.sub-title {
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* Subtitles */
+.s--1 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.s--2 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.s--3 {
+  grid-column: 1;
+  grid-row: 4;
+}
+.s--4 {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.s--1,
+.s--3,
+.gray {
+  background-color: #fff;
+}
+.s--2,
+.s--4,
+.light {
+  background-color: #e9ecef;
+}
+.row {
+  align-self: center;
+  padding: 16px;
+  font-weight: 500;
+}
