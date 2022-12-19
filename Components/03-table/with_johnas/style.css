@@ -29,58 +29,32 @@ body {
   /* Quotes around inter give it the first in=mportance to apply */
   font-family: "Inter", sans-serif;
   color: #343a40;
+  display: flex;
+  justify-content: center;
 }
-
-.table {
+table {
   width: 800px;
-  margin: 100px auto;
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(5, auto);
+  margin-top: 100px;
+  margin-top: 100px;
+  font-size: 18px;
+  /* border: 1px solid #343a40;*/
+  border-collapse: collapse;
+}
+td,
+th {
+  /* border: 1px solid #343a40; */
+  padding: 16px 24px;
+  text-align: left;
 }
 
-.title {
+thead th {
   background-color: #087f5b;
-  padding: 16px;
-  font-size: 18px;
-  color: #e6fcf5;
-  font-weight: 700;
+  color: #fff;
+  width: 25%;
 }
-.sub-title {
-  padding: 16px;
-  font-size: 18px;
-  font-weight: 700;
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
 }
-/* Subtitles */
-.s--1 {
-  grid-column: 1;
-  grid-row: 2;
-}
-.s--2 {
-  grid-column: 1;
-  grid-row: 3;
-}
-.s--3 {
-  grid-column: 1;
-  grid-row: 4;
-}
-.s--4 {
-  grid-column: 1;
-  grid-row: 5;
-}
-
-.s--1,
-.s--3,
-.gray {
-  background-color: #fff;
-}
-.s--2,
-.s--4,
-.light {
+tbody tr:nth-child(even) {
   background-color: #e9ecef;
-}
-.row {
-  align-self: center;
-  padding: 16px;
-  font-weight: 500;
 }
