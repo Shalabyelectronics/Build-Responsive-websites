@@ -1,0 +1,90 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+Main Color : #087f5b;
+Grey: ##343a40;
+light:#e6fcf5;
+#c3fae8;
+#c3fae8
+
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  /* Quotes around inter give it the first in=mportance to apply */
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  display: flex;
+  justify-content: center;
+}
+.pagination {
+  /* With flex */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  gap: 8px;
+  /* With Grid */
+  /* display: grid;
+  grid-template-columns: repeat(10, auto);
+  height: 100px;
+  column-gap: 16px;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center; */
+}
+.number {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.number:hover {
+  background-color: #087f5b;
+  /* padding: 16px; */
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  align-self: center;
+  cursor: pointer;
+}
+.btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #087f5b;
+  background-color: #fff;
+  cursor: pointer;
+}
+.btn-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+}
+.btn:hover {
+  background-color: #087f5b;
+  border: 1px solid #fff;
+}
+
+.btn:hover .btn-icon {
+  stroke: #fff;
+}
