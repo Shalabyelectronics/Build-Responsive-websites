@@ -1,0 +1,91 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+Main Color : #087f5b;
+Grey: ##343a40;
+light:#e6fcf5;
+#c3fae8;
+#c3fae8
+
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  /* Quotes around inter give it the first in=mportance to apply */
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  display: flex;
+  justify-content: center;
+}
+.pagination {
+  /* With flex */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+  gap: 12px;
+}
+
+.page-link:link,
+.page-link:visited {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.page-link:hover,
+.page-link:active,
+.page-link.current {
+  background-color: #087f5b;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+}
+.dots {
+  color: #868e96;
+}
+.btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #087f5b;
+  background-color: #fff;
+  cursor: pointer;
+}
+.btn-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+}
+.btn:hover {
+  background-color: #087f5b;
+  border: 1px solid #fff;
+}
+
+.btn:hover .btn-icon {
+  stroke: #fff;
+}
