@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.main-container {
+  height: 900px;
+  display: grid;
+  grid-template-columns: 50px 350px 1fr 250px;
+  grid-template-rows: 85px 1fr;
+  overflow: hidden;
+  /* background-color: aquamarine; */
+}
+.nav {
+  grid-column: 1;
+  grid-row: 1/-1;
+  background-color: #495057;
+  text-align: center;
+  padding-top: 12px;
+}
+.nav p {
+  color: #f7f7f7;
+  font-size: 20px;
+  font-weight: 500;
+}
+.header {
+  grid-column: 2/-1;
+  grid-row: 1;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-options {
+  display: flex;
+  gap: 16px;
+  margin-left: 16px;
+}
+.trash {
+  margin-right: 16px;
+}
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  text-decoration: none;
+  color: #f7f7f7;
+  padding: 8px;
+  background-color: #862e9c;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #ae3ec9;
+}
+
+.emails {
+  grid-column: 2;
+  grid-row: 2/-1;
+  background-color: #ced4da;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  overflow-y: scroll;
+}
+.top-email {
+  margin-top: 24px;
+}
+/* Add email class */
+.email:link,
+.email:visited {
+  font-size: 24px;
+  text-decoration: none;
+  width: 250px;
+  height: 75px;
+  background-color: #495057;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+  flex: 0 0 auto;
+}
+
+.email:hover,
+.email:active {
+  background-color: #868e96;
+}
+.additional-info {
+  grid-column: 4;
+  grid-row: 2/-1;
+  background-color: azure;
+}
+.email-view {
+  display: flex;
+  justify-content: center;
+}
+
+.additional-info {
+  background-color: #ced4da;
+  display: flex;
+  justify-content: center;
+}
+.email-view p,
+.additional-info p {
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 24px;
+}
