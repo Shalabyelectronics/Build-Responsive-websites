@@ -48,16 +48,124 @@ body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
+  max-width: 120rem;
   color: #555;
+  margin: 5rem auto;
+}
+/* Main header Section */
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr 1fr auto;
+  column-gap: 5rem;
+  row-gap: 10rem;
 }
 
-.test {
-  background-color: red;
-  padding: 4rem;
-  /* max-width: 1000px; */
-  /* width: 1000px; */
-  max-width: 50rem;
-  color: #fff;
+/* ----Nav Bar---- */
+
+/* Logo */
+
+nav {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 0;
+}
+.logo {
+  max-width: 200px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.nav-link:link,
+.nav-link:visited {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  background-color: aquamarine;
+  padding: 1rem 1.5rem;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: rgb(216, 255, 242);
+}
+
+/* ----Head Section ---- */
+.hero-img {
+  max-width: 60rem;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.beside-hero-img {
   font-size: 2rem;
-  /* 1 rem 16px --> 50*16 = 800px */
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.summery {
+  line-height: 1.6;
+}
+.beside-hero-btn {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* tastemonails section */
+
+.tastemonails-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.tastemonails-container button {
+  align-self: flex-start;
+}
+
+.tastemonails-small-photos {
+  display: flex;
+  max-width: 291px;
+  position: relative;
+}
+.photo {
+  position: absolute;
+  max-width: 5rem;
+  border-radius: 50%;
+}
+
+.p--2 {
+  right: 10%;
+}
+.p--3 {
+  right: 20%;
+}
+.p--4 {
+  right: 30%;
+}
+.p--5 {
+  right: 40%;
+}
+.p--6 {
+  right: 50%;
+}
+.p--7 {
+  right: 60%;
+}
+.p--8 {
+  right: 70%;
+}
+.p--9 {
+  right: 80%;
+}
+.p--10 {
+  right: 90%;
 }
