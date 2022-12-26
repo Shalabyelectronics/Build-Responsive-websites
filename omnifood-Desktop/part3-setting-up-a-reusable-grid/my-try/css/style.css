@@ -54,6 +54,32 @@ body {
 /* HEADER REUSEABLE SECTTION */
 /* ********************* */
 
+.section-how {
+  background-color: #555;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  background-color: #fdf2e9;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container div {
+  padding: 2rem;
+  font-size: 2rem;
+  background-color: aquamarine;
+}
+
 header {
   display: flex;
   justify-content: space-between;
