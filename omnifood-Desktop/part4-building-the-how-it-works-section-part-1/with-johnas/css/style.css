@@ -64,16 +64,12 @@ body {
 /* GENERAL REUSEABLE COMPONENTS */
 /* ***************************** */
 
-.section-how {
-  padding: 9.6px 0;
-}
-
 .container {
   /* 1140px we can use it also */
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
-  background-color: #555;
+  /* background-color: #555; */
 }
 
 .grid {
@@ -258,4 +254,16 @@ body {
 .delivered-text span {
   color: #cf711f;
   font-weight: 700;
+}
+
+/* ***************************** */
+/* HOW IT WORKS SECTION */
+/* ***************************** */
+
+.section-how {
+  padding: 9.6px 0;
+}
+
+.step-img {
+  width: 50%;
 }
