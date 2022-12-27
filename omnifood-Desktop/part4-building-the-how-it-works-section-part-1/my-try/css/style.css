@@ -2,10 +2,16 @@
 ----- 01 TYPOGRAPHY SYSTEM
 
 - Font Weights:
-Default: 1
+Default: 400
+500
+700
 
 - Line heights:
 Default: 1
+
+- Letter spacing
+-0.5px
+0.5px
 
 - FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
@@ -55,13 +61,13 @@ body {
 /* ********************* */
 
 .section-how {
-  background-color: #555;
+  /* background-color: #fdf2e9; */
 }
 
 .container {
   max-width: 120rem;
-  padding: 0 3.2rem;
-  background-color: #fdf2e9;
+  padding: 9.6rem 3.2rem;
+
   margin: 0 auto;
 }
 
@@ -74,12 +80,6 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.container div {
-  padding: 2rem;
-  font-size: 2rem;
-  background-color: aquamarine;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -89,6 +89,29 @@ header {
   background-color: #fdf2e9;
 }
 
+.mean-heading,
+.subheading {
+  letter-spacing: -0.5px;
+  color: #333;
+}
+
+.mean-heading {
+  font-size: 5.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.subheading {
+  font-size: 4.8rem;
+  margin-bottom: 3.2rem;
+}
+.describe-subheading {
+  display: block;
+  color: #cf711f;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 2rem;
+}
 .margin-right-small {
   margin-right: 1.6rem;
 }
@@ -152,13 +175,6 @@ header {
   align-items: center;
   column-gap: 9.6rem;
   padding: 0 3.2rem;
-}
-
-.mean-heading {
-  font-size: 5.2rem;
-  letter-spacing: -0.5px;
-  color: #333;
-  margin-bottom: 3.2rem;
 }
 
 /* ----Head Section ---- */
@@ -237,4 +253,12 @@ header {
   border-radius: 50%;
   border: 3px solid #fff;
   margin-right: -15px;
+}
+
+/* ********************* */
+/* HOW IT WORKS SECTION */
+/* ********************* */
+
+.step-img {
+  width: 50%;
 }
