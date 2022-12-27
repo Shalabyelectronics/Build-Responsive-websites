@@ -1,6 +1,6 @@
 # Build Responsive Real-World Websites with HTML and CSS
 
-This is the There'd course under [albonyanalmarsos](https://albonyanalmarsos.vercel.app/#subject) Full Stack Web Development Roadmap.
+This is the Third course under [albonyanalmarsos](https://albonyanalmarsos.vercel.app/#subject) Full Stack Web Development Roadmap.
 
 ![](https://progress-bar.dev/67/?title=progress)
 
