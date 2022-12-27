@@ -2,6 +2,8 @@
 
 This is the Third course under [albonyanalmarsos](https://albonyanalmarsos.vercel.app/#subject) Full Stack Web Development Roadmap.
 
+And [here](https://github.com/Shalabyelectronics/full_stack_journey) is the general repository that track my achievement .
+
 ![](https://progress-bar.dev/67/?title=progress)
 
 ## - Learning objectives
