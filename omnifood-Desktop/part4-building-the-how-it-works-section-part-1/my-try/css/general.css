@@ -79,7 +79,8 @@ body {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
 }
 
 .grid--2-cols {
@@ -90,8 +91,13 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid--center-v {
+  align-items: center;
+}
+
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.step-title {
   font-weight: 700;
   color: #333;
   /* We Used pixel here because we don't want to scale it */
