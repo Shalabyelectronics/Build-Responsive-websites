@@ -97,7 +97,8 @@ body {
 
 .heading-primary,
 .heading-secondary,
-.step-title {
+.heading-tertiary,
+.heading-featured-in {
   font-weight: 700;
   color: #333;
   /* We Used pixel here because we don't want to scale it */
