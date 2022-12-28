@@ -36,6 +36,8 @@ Medium: 0.75px
 --- 06 BORDER RADIUS
 
 By default : 9px
+Medium: 11px
+
 
 --- 07 WHITESPACE
 
@@ -165,4 +167,8 @@ body {
 /* This is a helper class that we can use sepratly from any geeneral class */
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }
