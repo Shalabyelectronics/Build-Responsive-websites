@@ -97,8 +97,7 @@ body {
 
 .heading-primary,
 .heading-secondary,
-.heading-tertiary,
-.heading-featured-in {
+.heading-tertiary {
   font-weight: 700;
   color: #333;
   /* We Used pixel here because we don't want to scale it */
@@ -117,6 +116,13 @@ body {
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
 .subheading {
   display: block;
   font-size: 1.6rem;
@@ -168,6 +174,14 @@ body {
   margin-right: 1.6rem !important;
 }
 
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
 strong {
   font-weight: 500;
+}
+
+.center-content {
+  text-align: center;
 }
