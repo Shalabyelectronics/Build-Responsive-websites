@@ -84,40 +84,6 @@
   margin-bottom: 4.8rem;
 }
 
-.btn:link,
-.btn:visited {
-  display: inline-block;
-  font-size: 2.4rem;
-  font-weight: 500;
-  text-decoration: none;
-  padding: 1.6rem 3.2rem;
-  border-radius: 9px;
-  transition: background-color 0.5s;
-  margin-bottom: 2rem;
-}
-.action-btn:link,
-.action-btn:visited {
-  background-color: #e67e22;
-  color: #fdf2e9;
-}
-
-.action-btn:hover,
-.action-btn:active {
-  background-color: #cf711f;
-}
-
-.info-btn:link,
-.info-btn:visited {
-  background-color: #fff;
-  color: #555;
-  box-shadow: 0 0 0 5px #fff;
-}
-
-.info-btn:hover,
-.info-btn:active {
-  background-color: #fdf2e9;
-}
-
 /* tastemonails section */
 
 .tastemonails-container {
@@ -303,26 +269,6 @@
   width: 2.4rem;
 }
 
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
-
-.list-icon {
-  width: 2.4rem;
-  height: 2.4rem;
-  color: #cf711f;
-}
-
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-
 .more-recipes-link:link,
 .more-recipes-link:visited {
   text-decoration: none;
@@ -396,4 +342,49 @@
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+/* ********************* */
+/* PRICING SECTION */
+/* ********************* */
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+.plan-description {
+  margin-bottom: 4.8em;
+}
+
+.plan-name {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.75;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+}
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+  color: #333;
+}
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #6e6e6e;
+}
+.pricing-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
 }
