@@ -492,3 +492,8 @@
   column-gap: 4.8rem;
   row-gap: 3.2rem;
 }
+
+.cta-form div {
+  display: flex;
+  flex-direction: column;
+}

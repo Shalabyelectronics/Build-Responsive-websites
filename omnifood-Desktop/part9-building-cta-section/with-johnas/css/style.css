@@ -460,6 +460,7 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
   background-image: linear-gradient(to right, #eb984e, #e67e22);
+  overflow: hidden;
   /* We can use also 
   to left
   to left bottom
@@ -470,8 +471,7 @@
   /* background-image: linear-gradient(90deg, red, #e67e22); */
 
   /* temp */
-  height: 50rem;
-  overflow: hidden;
+  /* height: 54.8rem; */
 }
 
 .cta-img-box {
@@ -491,7 +491,9 @@
 }
 
 .cta .heading-secondary {
-  color: #45260a;
+  /* color: #45260a; */
+  /* It will inherit the font color from it's parent */
+  color: inherit;
   margin-bottom: 3.2rem;
 }
 
@@ -505,4 +507,33 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 3.2rem;
   row-gap: 2.4rem;
+  align-items: center;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta-form *:focus {
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }

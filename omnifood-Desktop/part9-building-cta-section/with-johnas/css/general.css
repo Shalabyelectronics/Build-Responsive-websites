@@ -26,7 +26,9 @@ we used 18px too much so we can consider it our standard
 
 - primary : #e67e22
 - Tiints : #fdf2e9
-- Shades : #cf711f
+- Shades :
+ #cf711f
+ #45260a
 - Accents:
 - Grays
 #e67e22
@@ -150,6 +152,7 @@ body {
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -158,6 +161,10 @@ body {
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+  /* Only nessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
   /* transition is used to change properties for the element over time */
   transition: all 0.3s;
 }
@@ -187,6 +194,18 @@ body {
   box-shadow: inset 0 0 0 3px #fdf2e9;
 }
 
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #333;
+}
+
 .link:link,
 .link:visited {
   display: inline-block;
@@ -204,6 +223,14 @@ body {
   /* Here we keep the border on hover but it is transparent so it is exist but not visible and we did that because if we remove it it will cause strange behavour */
   border-bottom: 1px solid transparent;
 }
+
+*:focus {
+  outline: none;
+  /* outline 4px dotted #154654 > Same as border*/
+  /* outline-offset: 8px */
+  box-shadow: 0 0 0 0.8rem rgba(207, 113, 31, 0.5);
+}
+
 /* HELPER/SETTING CLASSES */
 /* This is a helper class that we can use sepratly from any geeneral class */
 .margin-right-sm {
