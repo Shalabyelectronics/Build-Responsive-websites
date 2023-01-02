@@ -1,0 +1,290 @@
+/*
+----- 01 TYPOGRAPHY SYSTEM
+
+- Font Weights:
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights:
+Default: 1
+Small: 1.05
+Medium:1.2
+Paragraph default: 1.6
+Large: 1.8
+
+- Letter spacing
+Small: (-0.5px)
+Medium: 0.75px
+
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+we used 18px too much so we can consider it our standard
+
+- 02 COLORS
+
+- primary : #e67e22
+- Tiints : #fdf2e9
+- Shades :
+ #cf711f
+ #45260a
+- Accents:
+- Grays
+#e67e22
+#888
+#767676 (Lightest grey allowed on #fff)
+#555
+#333
+#6E6E6E (Lightest grey allowed on #fdf2e9)
+#ddd 
+
+
+
+
+
+
+
+
+
+
+
+
+
+lighter than #fff
+
+--- 05 SHADOWS
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06 BORDER RADIUS
+
+By default : 9px
+Medium: 11px
+
+
+--- 07 WHITESPACE
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  /* display: flex;
+  justify-content: center; */
+}
+/* ***************************** */
+/* GENERAL REUSEABLE COMPONENTS */
+/* ***************************** */
+
+.container {
+  /* 1140px we can use it also */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  /* background-color: #555; */
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+  /* margin-bottom: 9.6rem; */
+}
+
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+/* Or we can use this also same as previouse one */
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 4fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  /* We Used pixel here because we don't want to scale it */
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  /* The font size is 62px as rem 6.2rem because the root font size is 10px that mean 62.5% */
+  font-size: 5.2rem;
+  line-height: 1.05;
+
+  margin-bottom: 3.2rem;
+}
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+.heading-tertiary {
+  font-size: 3rem;
+}
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  /* Only nessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  /* transition is used to change properties for the element over time */
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  /* border: 3px solid #fff; */
+  /* Instead of using border that behave strange on hover we can use box shadow instead */
+  box-shadow: inset 0 0 0 3px #fdf2e9;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  /* CurrentColor is very useful because it will take the color from color attribute automaticly */
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  /* Here we keep the border on hover but it is transparent so it is exist but not visible and we did that because if we remove it it will cause strange behavour */
+  border-bottom: 1px solid transparent;
+}
+
+*:focus {
+  outline: none;
+  /* outline 4px dotted #154654 > Same as border*/
+  /* outline-offset: 8px */
+  box-shadow: 0 0 0 0.8rem rgba(207, 113, 31, 0.5);
+}
+
+/* HELPER/SETTING CLASSES */
+/* This is a helper class that we can use sepratly from any geeneral class */
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+strong {
+  font-weight: 500;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #e67e22;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.2;
+}

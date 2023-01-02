@@ -1,0 +1,108 @@
+/* rem and em do NOT depend on html font-size in media queries Instaed, 1rem = 1 em = 16px */
+
+/* ***************************** */
+/* BELOW 1344PX (Smaller Desktop)*/
+/* ***************************** */
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* ***************************** */
+/* BELOW 1200PX (Landscape Tablets)*/
+/* ***************************** */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .grid {
+    row-gap: 6.4rem;
+    column-gap: 4.8rem;
+    /* margin-bottom: 9.6rem; */
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+/* ***************************** */
+/* BELOW 944PX (Landscape Tablets)*/
+/* ***************************** */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+  .hero-img {
+    /* The image will fill it's container width */
+    width: 60%;
+  }
+  .hero-text-box,
+  .hero-image-box {
+    text-align: center;
+  }
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+  .step-number {
+    font-size: 7.4rem;
+  }
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.8rem;
+    padding: 3.2rem;
+  }
+  .cta {
+    /* 3/5 = 60% 2/5 = 40%*/
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .btn--form {
+    margin-top: 1.2rem;
+  }
+}
+/* - FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+--- 07 WHITESPACE
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
