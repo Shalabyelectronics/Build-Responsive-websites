@@ -82,6 +82,7 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -91,6 +92,9 @@ body {
   color: #555;
   /* display: flex;
   justify-content: center; */
+
+  /* Only work if any element float from the body and it is not positioned absoulute */
+  overflow-x: hidden;
 }
 /* ***************************** */
 /* GENERAL REUSEABLE COMPONENTS */

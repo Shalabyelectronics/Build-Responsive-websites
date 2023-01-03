@@ -9,6 +9,7 @@
   /* we can use pading instead of height but we did that because we need to make it stick to the top while scroll the page */
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 .logo {
   height: 2.2rem;
@@ -54,7 +55,23 @@
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
+/* Mobile */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
 
+  display: none;
+}
+.icon-mobile-nav {
+  width: 4.8rem;
+  height: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
 /* ***************************** */
 /* HERO SECTION */
 /* ***************************** */
