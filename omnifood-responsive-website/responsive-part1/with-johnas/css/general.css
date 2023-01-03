@@ -136,9 +136,11 @@ body {
   grid-template-columns: repeat(4, 4fr);
 }
 
-.grid--5-cols {
+/* We didn't use it */
+
+/* .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 .grid--center-v {
   align-items: center;
@@ -167,6 +169,7 @@ body {
 }
 .heading-tertiary {
   font-size: 3rem;
+  margin-bottom: 2.4rem;
 }
 .subheading {
   display: block;
