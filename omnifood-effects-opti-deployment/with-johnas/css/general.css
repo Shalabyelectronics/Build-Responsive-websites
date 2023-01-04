@@ -83,6 +83,9 @@ html {
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* Does not work on sfari */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -219,7 +222,7 @@ body {
   background-color: #fdf2e9;
   /* border: 3px solid #fff; */
   /* Instead of using border that behave strange on hover we can use box shadow instead */
-  box-shadow: inset 0 0 0 3px #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 .btn--form {

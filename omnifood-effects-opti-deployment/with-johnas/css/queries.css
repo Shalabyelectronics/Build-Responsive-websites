@@ -100,6 +100,8 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    /* We used Z-index to keep the focus to the top always */
+    z-index: 9999;
   }
   /* I */
   .main-nav {
@@ -141,6 +143,12 @@
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
   }
   .main-nav-list {
     flex-direction: column;

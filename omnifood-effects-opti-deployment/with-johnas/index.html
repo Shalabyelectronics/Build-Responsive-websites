@@ -24,11 +24,13 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
         </ul>
       </nav>
       <button class="btn-mobile-nav">
@@ -38,7 +40,7 @@
     </header>
     <!-- This main tag to let search engin to know about our site -->
     <main>
-      <div class="section-hero">
+      <div class="section-hero" id="hero">
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
@@ -49,10 +51,10 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs. We have delivered 250,000+ meals last year!
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr; </a>
+            <a href="#how" class="btn btn--outline">Learn more &darr; </a>
             <div class="delivered-meals">
               <div class="delivered-imgs">
                 <img
@@ -100,7 +102,7 @@
           </div>
         </div>
       </div>
-      <div class="section-featured-in">
+      <div class="section-featured-in" id="featured">
         <div class="container">
           <h2 class="heading-featured-in">As featured in</h2>
           <div class="logos">
@@ -118,7 +120,7 @@
           </div>
         </div>
       </div>
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -183,7 +185,7 @@
         </div>
       </section>
       <!-- ******SECTION MEALS START HERE -->
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
@@ -302,7 +304,7 @@
       <!-- ******************** -->
       <!-- TESTIMONIALS SECTION START HERE-->
       <!-- ******************** -->
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Once you trt it, you can't go back</h2>
@@ -442,7 +444,7 @@
       <!-- **************************** -->
       <!-- PRICING AND FEATURED SECTION -->
       <!-- **************************** -->
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -475,7 +477,7 @@
               </li>
             </ul>
             <div class="plan-sign-up">
-              <a href="#" class="btn btn--full">Start eating well</a>
+              <a href="#cta" class="btn btn--full">Start eating well</a>
             </div>
           </div>
           <div class="pricing-plan pricing-plan--complete">
@@ -552,7 +554,7 @@
       <!-- **************************** -->
       <!-- CALL TO ACTION SECTION -->
       <!-- **************************** -->
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -637,7 +639,8 @@
             </li>
           </ul>
           <p class="copyright">
-            Copyright &copy; 2027 Omnifood, Inc.All rights reserved.
+            Copyright &copy; <span class="year">2027</span> Omnifood, Inc.All
+            rights reserved.
           </p>
         </div>
         <div class="address-col">
@@ -691,5 +694,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
