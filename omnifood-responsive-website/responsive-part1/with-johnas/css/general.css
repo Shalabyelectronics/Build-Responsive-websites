@@ -97,6 +97,13 @@ body {
   /* Only work if any element float from the body and it is not positioned absoulute */
   overflow-x: hidden;
 }
+
+*:focus {
+  outline: none;
+  /* outline 4px dotted #154654 > Same as border*/
+  /* outline-offset: 8px */
+  box-shadow: 0 0 0 0.8rem rgba(207, 113, 31, 0.5);
+}
 /* ***************************** */
 /* GENERAL REUSEABLE COMPONENTS */
 /* ***************************** */
@@ -215,12 +222,15 @@ body {
   color: #555;
 }
 
+.btn--outline:focus {
+}
+
 .btn--outline:hover,
 .btn--outline:active {
   background-color: #fdf2e9;
   /* border: 3px solid #fff; */
   /* Instead of using border that behave strange on hover we can use box shadow instead */
-  box-shadow: inset 0 0 0 3px #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 .btn--form {
@@ -251,13 +261,6 @@ body {
   color: #cf711f;
   /* Here we keep the border on hover but it is transparent so it is exist but not visible and we did that because if we remove it it will cause strange behavour */
   border-bottom: 1px solid transparent;
-}
-
-*:focus {
-  outline: none;
-  /* outline 4px dotted #154654 > Same as border*/
-  /* outline-offset: 8px */
-  box-shadow: 0 0 0 0.8rem rgba(207, 113, 31, 0.5);
 }
 
 /* HELPER/SETTING CLASSES */
